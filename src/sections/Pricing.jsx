@@ -116,7 +116,7 @@ const Pricing = () => {
                 >
                   {plan.caption}
                 </div>
-                <div className="relative z-4 mx-auto flex w-[325px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[310px] mb-3">
+                <div className="relative z-4 mx-auto flex w-[275px] rounded-3xl border-[3px] border-s4/25 bg-s1/50 p-2 backdrop-blur-[6px] max-md:w-[250px] max-lg:w-[260px] mb-3">
                   <button
                     className={clsx(
                       "pricing-head_btn",
