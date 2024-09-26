@@ -16,7 +16,7 @@ const Hero = () => {
               <h1 className="mb-6 h1 text-p4 uppercase max-lg:mb-7 max-lg:h2 max-md:mb-4 max-md:text-5xl max-md:leading-12">
                 Amazingly simple
               </h1>
-              <p className="max-w-440 mb-14 body-1 max-md:mb-10">
+              <p className="max-w-440 mb-14 body-1 max-md:mb-10 max-md:text-2xl">
                 We designed XORA AI Video Editor to be an easy to use, quick to
                 learn and suprisingly powerful.
               </p>
@@ -25,11 +25,11 @@ const Hero = () => {
               </LinkScroll>
             </div>
 
-            <div className="absolute hidden md:block -top-72 md:-top-[300px] left-[calc(50%-340px)] w-[1230px] pointer-events-none hero-img_res">
+            <div className="absolute hidden md:block -top-72 md:-top-[80px] lg:-top-[220px] md:left-[calc(50%-40px)] lg:left-[calc(50%-240px)] w-[960px] pointer-events-none hero-img_res">
               <img
                 src="/images/hero.png"
                 alt="hero"
-                className="size-1230 max-lg:h-auto"
+                className="md:size-512 lg:size-960 max-lg:h-auto"
               />
             </div>
           </div>

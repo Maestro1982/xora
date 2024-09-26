@@ -1,8 +1,10 @@
 import { Element } from "react-scroll";
 
-import { faq } from "../constants/index.jsx";
+import { faq, featureParagrah, featureTitle } from "../constants/index.jsx";
 
 import FaqItem from "../components/FaqItem.jsx";
+import { TextGenerateEffect } from "../components/ui/TextGenerateEffect.jsx";
+import { TextGenerateEffectParagraph } from "../components/ui/TextGenerateEffectParagraph.jsx";
 
 const Faq = () => {
   const halfLength = Math.floor(faq.length / 2);
@@ -12,10 +14,18 @@ const Faq = () => {
         <div className="container z-2 py-28">
           <div>
             <h3 className="h3 max-md:h5 max-w-640 max-lg:max-w-md mb-7 text-p4">
-              Curiosity didn&apos;t kill the cat, it gave it answers.
+              <TextGenerateEffect
+                duration={2}
+                filter={true}
+                words={featureTitle}
+              />
             </h3>
             <p className="body-1 max-lg:max-w-sm">
-              You&apos;ve got questions, we&apos;ve got answers.
+              <TextGenerateEffectParagraph
+                duration={4}
+                filter={true}
+                words={featureParagrah}
+              />
             </p>
           </div>
           <div className="faq-line_after w-0.5 h-full absolute left-[calc(50%-1px)] top-0 -z-1 bg-s2" />

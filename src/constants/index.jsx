@@ -427,3 +427,30 @@ export const socials = [
     url: "#",
   },
 ];
+
+export const words = [
+  {
+    text: "Flexible",
+  },
+  {
+    text: "pricing",
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "teams",
+  },
+  {
+    text: "off",
+  },
+  {
+    text: "all",
+  },
+  {
+    text: "sizes",
+  },
+];
+
+export const featureTitle = `Curiosity didn't kill the cat, it gave it answers.`;
+export const featureParagrah = `You've got questions, we've got answers.`;
