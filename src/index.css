@@ -313,3 +313,23 @@
 
   /*  END of Footer*/
 }
+
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 12px; /* width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #334679; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #03376B; /* color of the scrollbar */
+  border-radius: 6px; /* optional: round edges */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0C1838; /* color when hovered */
+}
+
+

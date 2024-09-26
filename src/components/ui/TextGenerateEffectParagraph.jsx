@@ -26,7 +26,7 @@ export const TextGenerateEffectParagraph = ({
 
   const renderWords = () => {
     return (
-      <motion.div ref={scope}>
+      <motion.span ref={scope}>
         {wordsArray.map((word, idx) => {
           return (
             <motion.span
@@ -40,17 +40,17 @@ export const TextGenerateEffectParagraph = ({
             </motion.span>
           );
         })}
-      </motion.div>
+      </motion.span>
     );
   };
 
   return (
-    <div className={cn("font-bold", className)}>
-      <div className="mt-4">
-        <div className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
+    <span className={cn("font-bold", className)}>
+      <span className="mt-4">
+        <span className=" dark:text-white text-black text-2xl leading-snug tracking-wide">
           {renderWords()}
-        </div>
-      </div>
-    </div>
+        </span>
+      </span>
+    </span>
   );
 };
